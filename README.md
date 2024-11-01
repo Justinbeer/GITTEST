@@ -29,11 +29,11 @@ git add .
 git commit -m "First commit"
 ```
 ```bash
--git status #상태확인
--git log #로그확인
+-git status # 상태확인
+-git log # 로그확인
 ``` 
 
-### Local Git to GITHUB
+### Local Git to GitHub
 - GitHub에서 저장소 생성
 - 저장소 주소
     https://github.com/Justinbeer/GITTEST.git
@@ -41,7 +41,17 @@ git commit -m "First commit"
 ```bash
 git remote add origin https://github.com/Justinbeer/GITTEST.git
 # git remote add 저장소이름 저장소주소
-
--push
+```
+- push
 ```bash
 git push -u origin master # 첫번째 푸시
+git push # 기본원격지 현재브랜치를 푸시
+```
+
+### From GitHub to Local git
+- 복제할 원격 저장소 주소 확보
+- 복제
+```bash
+git clone https://github.com/Justinbeer/GITTEST.git
+# git clone 원격지주소
+```
