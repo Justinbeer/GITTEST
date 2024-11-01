@@ -55,3 +55,9 @@ git push # 기본원격지 현재브랜치를 푸시
 git clone https://github.com/Justinbeer/GITTEST.git
 # git clone 원격지주소
 ```
+
+- 저장소 설정을
+
+- 원격지 변경사항 FETCH (확인)
+
+- 원격지 변경사항 PULL (내려받기)
