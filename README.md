@@ -19,12 +19,12 @@ git config user.email quietly47@gmail.com
 ``` bash
 git status
 ```
--staging
+- staging
 ```bash
 git add .
 ```
 
--저장소에 반영(commit)
+- 저장소에 반영(commit)
 ```bash
 git commit -m "First commit"
 ```
